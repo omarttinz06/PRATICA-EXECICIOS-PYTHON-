@@ -1,0 +1,16 @@
+while True:
+    print("=======CADASTRO=======")
+    nome_completo = input("DIGITE SEU NOME COMPLETO:")
+    idade = input("DIGITE SUA IDADE:")
+    cidade_onde_mora = input("DIGITE SUA CIDADE:")
+
+    print("===== VERIFIQUE CADASTRO =====")
+    print("Nome:", nome_completo, "\nIdade:", idade, "\nCidade:", cidade_onde_mora)
+
+    confirmar = input("SEUS DADOS ESTÃO CORRETOS (S/N):")
+
+    if confirmar == "S":
+        print("CADASTRO FINALIZADO!")
+        break
+    else:
+        print("VAMOS CADASTRAR NOVAMENTE")
